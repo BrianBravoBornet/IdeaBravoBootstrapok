@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+   
+} 
+
+header {
+    text-align:center ;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+h2 {
+    text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.navbar {
+   
+    font-size:x-large;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+.promos {
+    text-align: center;
+}
+
+#cartas {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#youtube {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+footer{
+   
+    background-image: url(../img/fondoo.jpg);
+    background-size: cover;
+    text-align: center;
+    font-size: x-large;
+    justify-content: center;
+    
+}
+
+form {
+    background-color: gray;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+
+
+.container__footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 400px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.box__footer{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.box__footer .logo img{
+    width: 180px;
+}
+
+.box__footer .terms{
+    max-width: 350px;
+    margin-top: 20px;
+    font-weight: 500;
+    color: #7a7a7a;
+    font-size: 18px;
+}
+
+.box__footer h2{
+    margin-bottom: 30px;
+    color: #343434;
+    font-weight: 700;
+}
+
+.box__footer a{
+    margin-top: 10px;
+    color: #7a7a7a;
+    font-weight: 600;
+}
+
+.box__footer a:hover{
+    opacity: 0.8;
+}
+
+.box__footer a .fab{
+    font-size: 20px;
+}
+
+/* keyframes */
+
+@keyframes logo_animado {
+    0% {}
+    25% {
+        transform:scale(1.1, 1.1);
+    }
+    50% {
+        transform:scale(1.2, 1.2);
+    }
+    75% {
+        transform:scale(1.1, 1.1);
+    }
+    100% {
+        transform:scale(1.1, 1.1);
+    }
+    to {
+        transform: scale(1.1, 1.1);
+    }
+}
+
+h1 {
+    animation-name: logo_animado;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
